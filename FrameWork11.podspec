@@ -3,11 +3,11 @@ Pod::Spec.new do |spec|
 
   spec.name         = "FrameWork11"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of FrameWork11."
+  spec.summary      = "Description of FrameWork11."
 
-  spec.description  = ""
+  spec.description  = "Description of FrameWork11. This is demo framework for create cocoapod."
 
-  spec.homepage     = "http://EXAMPLE/FrameWork11"
+  spec.homepage     = "https://github.com/pranayprajapati/FrameWork11"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
@@ -24,11 +24,11 @@ Pod::Spec.new do |spec|
  
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  spec.source       = { :git => "http://EXAMPLE/FrameWork11.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/pranayprajapati/FrameWork11.git", :tag => spec.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "FrameWork11", "FrameWork11/**/*.{h,m,swift}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -38,10 +38,12 @@ Pod::Spec.new do |spec|
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "UIKit"
+  
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  # spec.library   = "iconv"
+  spec.library   = "SocketIO"
+  
   # spec.libraries = "iconv", "xml2"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

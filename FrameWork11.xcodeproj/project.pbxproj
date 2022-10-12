@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BE44DADC197AE11426BE9B8 /* Pods_FrameWork11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FA8414A37C432A0D462F17 /* Pods_FrameWork11.framework */; };
 		FAB82D9528F456900034A1E8 /* FrameWork11.docc in Sources */ = {isa = PBXBuildFile; fileRef = FAB82D9428F456900034A1E8 /* FrameWork11.docc */; };
 		FAB82D9B28F456900034A1E8 /* FrameWork11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB82D9028F456900034A1E8 /* FrameWork11.framework */; };
 		FAB82DA028F456900034A1E8 /* FrameWork11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB82D9F28F456900034A1E8 /* FrameWork11Tests.swift */; };
@@ -55,7 +56,7 @@
 		FAB82E1728F4575A0034A1E8 /* SocketChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB82DEB28F457590034A1E8 /* SocketChatManager.swift */; };
 		FAB82E1828F4575A0034A1E8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB82DEC28F457590034A1E8 /* NetworkManager.swift */; };
 		FAB82E1928F4575A0034A1E8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB82DED28F457590034A1E8 /* Reachability.swift */; };
-		FAB82E1C28F4578F0034A1E8 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = FAB82E1B28F4578F0034A1E8 /* SocketIO */; };
+		FF01B73D78A3421EB16DE377 /* Pods_FrameWork11_FrameWork11Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6C065711F2E96F842B6BEC /* Pods_FrameWork11_FrameWork11Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DA43150875649DB63DC9EE4 /* Pods-FrameWork11-FrameWork11Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameWork11-FrameWork11Tests.debug.xcconfig"; path = "Target Support Files/Pods-FrameWork11-FrameWork11Tests/Pods-FrameWork11-FrameWork11Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C59112A0C8BC2F96B35ABBC /* Pods-FrameWork11-FrameWork11Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameWork11-FrameWork11Tests.release.xcconfig"; path = "Target Support Files/Pods-FrameWork11-FrameWork11Tests/Pods-FrameWork11-FrameWork11Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70DD73B6959D01381E083806 /* Pods-FrameWork11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameWork11.release.xcconfig"; path = "Target Support Files/Pods-FrameWork11/Pods-FrameWork11.release.xcconfig"; sourceTree = "<group>"; };
+		7A6C065711F2E96F842B6BEC /* Pods_FrameWork11_FrameWork11Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrameWork11_FrameWork11Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA8414A37C432A0D462F17 /* Pods_FrameWork11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrameWork11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56042876F589A72BFD397B5 /* Pods-FrameWork11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameWork11.debug.xcconfig"; path = "Target Support Files/Pods-FrameWork11/Pods-FrameWork11.debug.xcconfig"; sourceTree = "<group>"; };
 		FAB82D9028F456900034A1E8 /* FrameWork11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameWork11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB82D9328F456900034A1E8 /* FrameWork11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameWork11.h; sourceTree = "<group>"; };
 		FAB82D9428F456900034A1E8 /* FrameWork11.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FrameWork11.docc; sourceTree = "<group>"; };
@@ -125,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB82E1C28F4578F0034A1E8 /* SocketIO in Frameworks */,
+				1BE44DADC197AE11426BE9B8 /* Pods_FrameWork11.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,18 +141,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB82D9B28F456900034A1E8 /* FrameWork11.framework in Frameworks */,
+				FF01B73D78A3421EB16DE377 /* Pods_FrameWork11_FrameWork11Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BFD76D151872FB2B6DF6A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F56042876F589A72BFD397B5 /* Pods-FrameWork11.debug.xcconfig */,
+				70DD73B6959D01381E083806 /* Pods-FrameWork11.release.xcconfig */,
+				4DA43150875649DB63DC9EE4 /* Pods-FrameWork11-FrameWork11Tests.debug.xcconfig */,
+				6C59112A0C8BC2F96B35ABBC /* Pods-FrameWork11-FrameWork11Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		839364EEB7A8A73608BAB3A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA8414A37C432A0D462F17 /* Pods_FrameWork11.framework */,
+				7A6C065711F2E96F842B6BEC /* Pods_FrameWork11_FrameWork11Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAB82D8628F456900034A1E8 = {
 			isa = PBXGroup;
 			children = (
 				FAB82D9228F456900034A1E8 /* FrameWork11 */,
 				FAB82D9E28F456900034A1E8 /* FrameWork11Tests */,
 				FAB82D9128F456900034A1E8 /* Products */,
+				7BFD76D151872FB2B6DF6A24 /* Pods */,
+				839364EEB7A8A73608BAB3A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -429,6 +460,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB82DA428F456900034A1E8 /* Build configuration list for PBXNativeTarget "FrameWork11" */;
 			buildPhases = (
+				C3850CCDABFDAFC36E2633FA /* [CP] Check Pods Manifest.lock */,
 				FAB82D8B28F456900034A1E8 /* Headers */,
 				FAB82D8C28F456900034A1E8 /* Sources */,
 				FAB82D8D28F456900034A1E8 /* Frameworks */,
@@ -439,9 +471,6 @@
 			dependencies = (
 			);
 			name = FrameWork11;
-			packageProductDependencies = (
-				FAB82E1B28F4578F0034A1E8 /* SocketIO */,
-			);
 			productName = FrameWork11;
 			productReference = FAB82D9028F456900034A1E8 /* FrameWork11.framework */;
 			productType = "com.apple.product-type.framework";
@@ -450,9 +479,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB82DA728F456900034A1E8 /* Build configuration list for PBXNativeTarget "FrameWork11Tests" */;
 			buildPhases = (
+				48FEC6F4539F07B6EB09E4EC /* [CP] Check Pods Manifest.lock */,
 				FAB82D9628F456900034A1E8 /* Sources */,
 				FAB82D9728F456900034A1E8 /* Frameworks */,
 				FAB82D9828F456900034A1E8 /* Resources */,
+				EAF6172B27EE78A021609427 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -491,9 +522,6 @@
 				Base,
 			);
 			mainGroup = FAB82D8628F456900034A1E8;
-			packageReferences = (
-				FAB82E1A28F4578F0034A1E8 /* XCRemoteSwiftPackageReference "socket" */,
-			);
 			productRefGroup = FAB82D9128F456900034A1E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -539,6 +567,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48FEC6F4539F07B6EB09E4EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FrameWork11-FrameWork11Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3850CCDABFDAFC36E2633FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FrameWork11-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF6172B27EE78A021609427 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FrameWork11-FrameWork11Tests/Pods-FrameWork11-FrameWork11Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FrameWork11-FrameWork11Tests/Pods-FrameWork11-FrameWork11Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FrameWork11-FrameWork11Tests/Pods-FrameWork11-FrameWork11Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAB82D8C28F456900034A1E8 /* Sources */ = {
@@ -715,6 +807,7 @@
 		};
 		FAB82DA528F456900034A1E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56042876F589A72BFD397B5 /* Pods-FrameWork11.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -743,6 +836,7 @@
 		};
 		FAB82DA628F456900034A1E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DD73B6959D01381E083806 /* Pods-FrameWork11.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -771,6 +865,7 @@
 		};
 		FAB82DA828F456900034A1E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA43150875649DB63DC9EE4 /* Pods-FrameWork11-FrameWork11Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -788,6 +883,7 @@
 		};
 		FAB82DA928F456900034A1E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C59112A0C8BC2F96B35ABBC /* Pods-FrameWork11-FrameWork11Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -834,25 +930,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FAB82E1A28F4578F0034A1E8 /* XCRemoteSwiftPackageReference "socket" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FAB82E1B28F4578F0034A1E8 /* SocketIO */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FAB82E1A28F4578F0034A1E8 /* XCRemoteSwiftPackageReference "socket" */;
-			productName = SocketIO;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAB82D8728F456900034A1E8 /* Project object */;
 }
