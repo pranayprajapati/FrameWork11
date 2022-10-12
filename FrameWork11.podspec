@@ -30,19 +30,13 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "FrameWork11", "FrameWork11/**/*.{h,m,swift}"
 
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   spec.framework  = "UIKit"
   
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  spec.library   = "SocketIO"
+  # spec.library   = "SocketIO"
   
   # spec.libraries = "iconv", "xml2"
 
@@ -51,6 +45,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  
+  spec.dependency "Socket.IO-Client-Swift"
 
 end
